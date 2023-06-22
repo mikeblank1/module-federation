@@ -25,11 +25,14 @@ jobs:
         with:
           node-version: '18.x'
 
-      - name: npm install, build, and start
+      - name: Copy shared
         run: |
           mkdir shared
           cp ../shared/* ./shared
-          npm ci
+
+      - name: npm install, build, and start
+        run: |
+          npm install
           npm run build --if-present
 
       - name: Zip artifact for deployment
