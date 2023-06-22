@@ -57,7 +57,7 @@ jobs:
         uses: azure/webapps-deploy@v2
         with:
           images:
-          app-name: 'module-federation'
+          app-name: 'wg-module-federation'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_1B8EA13CA1D44135B38B2F62C88DD75F }}
           package: .
