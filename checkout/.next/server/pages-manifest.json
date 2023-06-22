@@ -1,7 +1,9 @@
 {
-  "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
+  "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
+  "/[...slug]": "pages/[...slug].js",
+  "/checkout": "pages/checkout.js",
   "/": "pages/index.js",
-  "/checkout": "pages/checkout.js"
+  "/shop/mybag": "pages/shop/mybag.js"
 }
