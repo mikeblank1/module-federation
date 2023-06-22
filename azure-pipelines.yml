@@ -19,7 +19,10 @@ steps:
     npm install
     npm run build
   displayName: 'npm install and build'
-
-
-
+- task: AzureRmWebAppDeployment@4
+  inputs:
+    ConnectionType: 'AzureRM' 
+    azureSubscription: '8822fd30-ce12-46b1-a862-2e6705aec9d2'
+    appType: 'webApp'
+    WebAppName: module-federation
   
