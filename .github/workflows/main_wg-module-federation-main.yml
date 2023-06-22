@@ -27,6 +27,8 @@ jobs:
 
       - name: npm install, build, and start
         run: |
+          mkdir shared
+          cp ./shared/* shared/*
           npm install
           npm run build --if-present
 
@@ -37,7 +39,7 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: node-app
-          path: home/release.zip,./shared/*
+          path: home/release.zip
 
   deploy:
     runs-on: ubuntu-latest
