@@ -26,12 +26,12 @@ jobs:
           node-version: '18.x'
 
       - name: Copy shared
-        working-directory: .
+
         run: |
           mkdir shared
-          cp ../shared/* ./shared
+          cp ../shared/* shared
 
-      - name: npm install, build, and start
+      - name: npm install, build, and test
         run: |
           npm install
           npm run build --if-present
