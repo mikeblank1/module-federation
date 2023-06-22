@@ -27,7 +27,7 @@ jobs:
 
       - name: Copy shared
 
-        run: |
+        run:
           mkdir shared
           cp ../shared/* shared
 
