@@ -26,6 +26,7 @@ jobs:
           node-version: '18.x'
 
       - name: Copy shared
+        working-directory: .
         run: |
           mkdir shared
           cp ../shared/* ./shared
