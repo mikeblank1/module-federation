@@ -2,7 +2,7 @@ node_modules
 home/node_modules
 checkout/node_modules
 shop/node_modules
-home/.next/*
+home/.next
 checkout/.next
 shop/.next
 .next
