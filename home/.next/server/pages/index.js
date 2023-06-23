@@ -5,18 +5,18 @@ exports.id = 405;
 exports.ids = [405];
 exports.modules = {
 
-/***/ 9750:
+/***/ 6616:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var next_dynamic__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(5218);
+/* harmony import */ var next_dynamic__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(5152);
 /* harmony import */ var next_dynamic__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(next_dynamic__WEBPACK_IMPORTED_MODULE_0__);
 
-const page = __webpack_require__.e(/* import() */ 397).then(__webpack_require__.bind(__webpack_require__, 5397));
-const Page = next_dynamic__WEBPACK_IMPORTED_MODULE_0___default()(()=>__webpack_require__.e(/* import() */ 397).then(__webpack_require__.bind(__webpack_require__, 5397)), {
+const page = __webpack_require__.e(/* import() */ 311).then(__webpack_require__.bind(__webpack_require__, 6311));
+const Page = next_dynamic__WEBPACK_IMPORTED_MODULE_0___default()(()=>__webpack_require__.e(/* import() */ 311).then(__webpack_require__.bind(__webpack_require__, 6311)), {
     loadableGenerated: {
         modules: [
             "index.js -> " + "../realPages/index"
@@ -78,7 +78,7 @@ module.exports = require("styled-jsx/style");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [218], () => (__webpack_exec__(9750)));
+var __webpack_exports__ = __webpack_require__.X(0, [152], () => (__webpack_exec__(6616)));
 module.exports = __webpack_exports__;
 
 })();

@@ -1,4 +1,8 @@
 node_modules
-home/.next
-shop/.next
+home/node_modules
+checkout/node_modules
+shop/node_modules
+home/.next/*
 checkout/.next
+shop/.next
+.next
