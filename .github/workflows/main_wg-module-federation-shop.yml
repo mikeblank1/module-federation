@@ -70,4 +70,4 @@ jobs:
       - name: run build (TODO not sure why this is not zipped?)
         working-directory: .
         run: |
-          yarn run build
+          yarn build-azure
