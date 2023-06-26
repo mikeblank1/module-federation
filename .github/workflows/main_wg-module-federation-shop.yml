@@ -64,5 +64,5 @@ jobs:
           images:
           app-name: 'wg-module-federation-shop'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_6F4CBC6A7B5846FEBC7680246AF943AE }}
+          publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE_SHOP }}
           package: release.zip
