@@ -27,6 +27,7 @@ jobs:
 
       - name: Copy shared
         run: |
+          mkdir shared
           cp ../shared/* ./shared
 
       - name: npm install, build, and start
