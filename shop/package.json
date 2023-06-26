@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev -p 3002",
     "build": "next telemetry disable && next build",
+    "build-azure": "node_modules/next/dist/bin/next telemetry disable && node_modules/next/dist/bin/next build",
     "start": "node_modules/next/dist/bin/next start"
   },
   "dependencies": {
