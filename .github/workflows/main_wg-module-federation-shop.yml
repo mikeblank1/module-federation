@@ -68,5 +68,6 @@ jobs:
           package: release.zip
           
       - name: run build (TODO not sure why this is not zipped?)
+        working-directory: .
         run: |
           yarn run build
