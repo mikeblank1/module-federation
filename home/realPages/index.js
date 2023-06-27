@@ -26,7 +26,7 @@ const Home = ({ loaded }) => {
       <div className="hero">
         <RemoteTitle />
         <h1 className="title">
-          Welcome to Next.js on Webpack 5! <code>home</code>
+          Welcome to Next.js on Webpack 5! This is the <code>MAIN APP</code>
         </h1>
         <p className="description">
           To get started, edit <code>pages/index.js</code> and save to reload.
