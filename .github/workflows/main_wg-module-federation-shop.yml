@@ -32,7 +32,6 @@ jobs:
 
       - name: npm install, build, and start
         run: |
-          rm -r ./.next
           yarn install
           yarn run build
 
