@@ -10,7 +10,7 @@ module.exports = {
           remotes: {
             home: 'home@https://wg-module-federation.azurewebsites.net/_next/static/chunks/remoteEntry.js',
             shop: 'shop@https://wg-module-federation-shop.azurewebsites.net/_next/static/chunks/remoteEntry.js',
-            checkout: 'checkout@https://wg-module-federation.azurewebsites-checkout.net/_next/static/chunks/remoteEntry.js',
+            checkout: 'checkout@https://wg-module-federation-checkout.azurewebsites.net/_next/static/chunks/remoteEntry.js',
           },
           exposes: {
             './nav': './components/nav.js',
