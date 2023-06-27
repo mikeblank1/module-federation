@@ -8,7 +8,7 @@ module.exports = {
           name: 'home',
           filename: 'static/chunks/remoteEntry.js',
           remotes: {
-            home: 'home@https://wg-module-federation.azurewebsites.net//_next/static/chunks/remoteEntry.js',
+            home: 'home@https://wg-module-federation.azurewebsites.net/_next/static/chunks/remoteEntry.js',
             shop: 'shop@https://wg-module-federation-shop.azurewebsites.net/_next/static/chunks/remoteEntry.js',
             checkout: 'checkout@http://localhost:3000/_next/static/chunks/remoteEntry.js',
           },

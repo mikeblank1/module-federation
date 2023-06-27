@@ -32,11 +32,12 @@ jobs:
 
       - name: npm install, build, and start
         run: |
+          rm -r ./.next
           yarn install
           yarn run build
 
       - name: Zip artifact for deployment
-        run: zip -r release.zip *
+        run: zip -r release.zip ./* ./.*
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v2
