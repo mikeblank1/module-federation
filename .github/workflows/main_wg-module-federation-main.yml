@@ -1,7 +1,7 @@
 # Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
 # More GitHub Actions for Azure: https://github.com/Azure/actions
 
-name: Build and deploy Node.js MAIN app to Azure Web App - wg-module-federation
+name: MAIN APP - Build and deploy Node.js to Azure Web App - wg-module-federation
 
 on:
   push:
@@ -24,6 +24,11 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: '18.x'
+
+      - name: Copy shared
+        run: |
+          mkdir shared
+          cp ../shared/* ./shared
 
       - name: npm install, build, and start
         run: |
